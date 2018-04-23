@@ -96,7 +96,6 @@ void init_hardware(){
     delay(10);
 
     pinMode(pirPin, INPUT);
-    pinMode(pirPin2, INPUT);
     pinMode(LED_BUILTIN, OUTPUT);
     delay(1000);
     Serial.flush();
